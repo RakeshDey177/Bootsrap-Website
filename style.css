@@ -1,0 +1,292 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Urbanist',sans-serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Global */
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-suporting-color:#c850c0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:'Urbanist',sans-serif;
+    color:var(--bs-dark-color)
+}
+
+h1{
+    font-size: 3.8rem;
+    color:white
+}
+
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p{
+    margin:8px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.07rem;
+    color:var(--bs-dark-color);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+button, a
+{
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+/* hero section */
+
+.hero-video{
+    width:400px;
+    height:auto;
+    border-radius:1rem;
+    margin:20px
+    
+}
+
+.hero-section{
+    height:80vh;
+    position: relative;
+} 
+
+.hero-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
+/* navstyle */
+
+.nav-link{
+    color:var(--bs-main-color)
+}
+
+.nav-link:hover{
+    color:violet
+}
+
+.text-light{
+    color: var(--bs-primary-color);
+}
+
+/* Shape Divider */
+.custom-shape-divider-bottom-1686326193 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686326193 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1686326193 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* section service */
+
+.common-heading{
+    font-size:2.6rem;
+    font-weight:500;
+    letter-spacing: 0.01rem;
+}
+
+.common-title{
+    margin-bottom: 4.3rem;
+}
+
+.card-box:hover{
+    box-shadow: 18px 12px 6px 4px black;
+    transform: scale(1.1);
+}
+
+/* Digital Product Section */
+
+.giphy{
+    height: 350px;
+    border-radius: 20px;
+}
+
+.info-section{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(22,22,22,0.9),rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/1402790/pexels-photo-1402790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 6rem 0;
+    overflow: hidden
+}
+
+/* online-mode section */
+h5{
+    font-weight: 600;
+}
+
+/* testimonial-section */
+
+.testimonial-section{
+  
+    padding-bottom: 100px;
+}
+
+.card-testimony{
+    background-color: #262631;
+    color:var(--bs-main-color)
+
+}
+
+.card-testimony:hover{
+    background-color: var(--bs-primary-color);
+    color:var(--bs-dark-primary)
+}
+
+.card-testimony .card-text{
+    color:white
+}
+
+.card-testimony .card-text:hover{
+    color:var(--bs-dark-primary)
+}
+
+.small-text-grey{
+    font-size: 12px;
+    color:var(--bs-primary-color)
+
+}
+
+
+/* contact section */
+
+.contact-section{
+    position: relative;
+    padding: 0 0 9rem 0;
+
+}
+
+.custom-shape-divider-top-1686660679 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1686660679 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1686660679 .shape-fill {
+    fill: #FFFFFF;
+}
+
+form{
+    width:50%;
+    margin:auto
+}
+
+/* Footer */
+
+.footer-section
+{
+    background: black;
+    padding: 5rem 6rem;
+}
+
+.footer h5{
+    color:white
+}
+
+.footer .footer-paragraph{
+    color:white
+}
+
+.logo{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer-subscribe{
+    padding:15px 0 15px 0 ;
+}
+
+@media screen and (max-width:998px){
+    h1{
+        font-size: 2.4rem;
+    }
+
+    .hero-video{
+        width: 300px;
+        text-align: center;
+    }
+    h1,h2{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width:470px)
+{
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .common-heading{
+        font-size: ;
+    }
+
+    h5{
+        overflow:hidden;
+        
+    }
+}
